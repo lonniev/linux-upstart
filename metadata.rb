@@ -1,11 +1,7 @@
-name             'db2-express-community'
+name             'linux-upstart'
 maintainer       'Predictable Response'
 maintainer_email 'lonniev@gmail.com'
 license          'CC-BY'
-description      'Installs/Configures db2-express-community'
+description      'Installs/Configures Upstart for Ubuntu Linux'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          '0.2.2'
-
-depends 'manage-users'
-depends 'mechanize'
-depends 'tarball'
+version          '0.1.1'
